@@ -1,0 +1,170 @@
+*{
+ padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/homebg.jpg);
+height: 10vh;
+background-size: cover;
+background-position: center;
+min-height: 100px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body , html{
+overflow-x: hidden;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+margin-right: 60px;
+font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #ffff;
+color: #000;
+}
+
+.logo img{
+float: left;
+margin-top: -48px;
+width: 200px;
+height: auto;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #ffff;
+    font-size: 50px;
+
+}
+
+.button{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #ffff;
+    padding: 5px 20px;
+    color: #ffff;
+    transition: 0.5s ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #ffff;
+color: #000;
+}
+
+/* Events------------*/
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.ctn:hover{
+    background-color: #ffff;
+color: #000;
+}
+
+section{
+    width: 80%;
+  
+    margin: 80px;
+}
+
+.title2{
+    text-align: center;
+    font-size: 4vmin;
+color: #49497e;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+
+}
+
+.row .col{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.turfimg{
+    width: 250px;
+    height: 300px;
+ padding-left: 30px;
+ padding-top: 35px;
+}
+
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: #49497e;
+    margin:  20px auto;
+
+}
+
+p{
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+
+.events .ctn{
+    margin-top: 30px;
+}
+
+/* about------------*/
